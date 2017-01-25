@@ -74,3 +74,4 @@ C:\Users\vdb\Dropbox\3NMCT\Stage\Implementatie\HerinneringsBackend\HerinneringsB
 C:\Users\vdb\Dropbox\3NMCT\Stage\Implementatie\HerinneringsBackend\HerinneringsBackend\HerinneringsBackend\bin\System.Web.Http.Owin.xml
 C:\Users\vdb\Dropbox\3NMCT\Stage\Implementatie\HerinneringsBackend\HerinneringsBackend\HerinneringsBackend\obj\Debug\RememberMeBackend.dll
 C:\Users\vdb\Dropbox\3NMCT\Stage\Implementatie\HerinneringsBackend\HerinneringsBackend\HerinneringsBackend\obj\Debug\RememberMeBackend.pdb
+C:\Users\vdb\Dropbox\3NMCT\Stage\Implementatie\HerinneringsBackend\HerinneringsBackend\HerinneringsBackend\obj\Debug\RememberMeBackend.csprojResolveAssemblyReference.cache

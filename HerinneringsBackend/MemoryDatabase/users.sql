@@ -7,5 +7,7 @@
 	[UserPassword] VARCHAR(32),
 	[UserQuestion1] VARCHAR(100),
 	[UserQuestion2] VARCHAR(100),
-	[LastChanged] VARCHAR(10),
+	[UserAnswer1] VARCHAR(50),
+	[UserAnswer2] VARCHAR(50),
+
 )

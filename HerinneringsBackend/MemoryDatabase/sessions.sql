@@ -8,6 +8,8 @@
 	[SessionCount] INTEGER,
 	[SessionIsFinished] BIT,
 	[SessionCreator] VARCHAR(36), 
+	[SessionTarget] VARCHAR(36),
+	[SessionLastModified] BIGINT,
 	CONSTRAINT FK_session_creator FOREIGN KEY (SessionCreator)
 		REFERENCES [dbo].[users] (UserUuid)
 )

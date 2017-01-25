@@ -1,0 +1,31 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[albums] (Table)
+       [dbo].[albumsmemories] (Table)
+       [dbo].[memories] (Table)
+       [dbo].[sessions] (Table)
+       [dbo].[sessionsalbums] (Table)
+       [dbo].[timelines] (Table)
+       [dbo].[trustees] (Table)
+       [dbo].[users] (Table)
+       [dbo].[FK_album_creator] (Foreign Key)
+       [dbo].[FK_album_memories] (Foreign Key)
+       [dbo].[FK_memory_albums] (Foreign Key)
+       [dbo].[FK_memory_creator] (Foreign Key)
+       [dbo].[FK_session_creator] (Foreign Key)
+       [dbo].[FK_session_albums] (Foreign Key)
+       [dbo].[FK_album_sessions] (Foreign Key)
+       [dbo].[FK_timeline_memories] (Foreign Key)
+       [dbo].[FK_timeline_users] (Foreign Key)
+
+** Supporting actions

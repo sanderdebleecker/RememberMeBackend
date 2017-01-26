@@ -16,6 +16,7 @@ using Microsoft.Owin.Security.OAuth;
 using RememberMeBackend.Models;
 using RememberMeBackend.Providers;
 using RememberMeBackend.Results;
+using RememberMeBackend.Models.Data;
 
 namespace RememberMeBackend.Controllers
 {

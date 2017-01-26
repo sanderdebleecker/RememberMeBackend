@@ -18,5 +18,15 @@ namespace RememberMeBackend.Models.Data {
         public String UserQuestion2 { get; set; }
         public String UserAnswer1 { get; set; }
         public String UserAnswer2 { get; set; }
+
+        //FK dependencies
+        public virtual ICollection<Memory> CreatedMemories { get; set; }
+        public virtual ICollection<Memory> SharedMemories { get; set; }
+        public virtual ICollection<Album> CreatedAlbums { get; set; }
+        public virtual ICollection<Album> SharedAlbums { get; set; }
+        public virtual ICollection<Session> CreatedSessions { get; set; }
+        public virtual ICollection<Session> SharedSessions { get; set; }
+        public virtual ICollection<Timeline> CreatedTimelines { get; set; }
+
     }
 }

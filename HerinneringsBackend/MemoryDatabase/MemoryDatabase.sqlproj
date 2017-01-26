@@ -64,8 +64,6 @@
     <Build Include="albums.sql" />
     <Build Include="sessions.sql" />
     <Build Include="trustees.sql" />
-    <Build Include="albumsmemories.sql" />
-    <Build Include="sessionsalbums.sql" />
     <Build Include="timelines.sql" />
   </ItemGroup>
 </Project>

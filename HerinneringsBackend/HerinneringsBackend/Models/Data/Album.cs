@@ -15,5 +15,14 @@ namespace RememberMeBackend.Models.Data {
         public string AlbumCreator { get; set; }
         public string AlbumTarget { get; set; }
         public long AlbumLastModified { get; set; }
+
+        //FK Collections
+        public virtual ICollection<Memory> Memories { get; private set; }
+        public virtual ICollection<Session> Sessions { get; private set; }
+        
+        //FK Attributes
+        public virtual ApplicationUser Creator { get; set; }
+        public virtual ApplicationUser Target { get; set; }
+
     }
 }

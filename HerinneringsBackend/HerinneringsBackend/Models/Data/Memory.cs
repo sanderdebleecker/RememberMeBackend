@@ -21,5 +21,13 @@ namespace RememberMeBackend.Models.Data {
         public string MemoryCreator { get; set; }
         public string MemoryTarget { get; set; }
         public long MemoryLastModified { get; set; }
+
+        //FK Collections
+        public virtual ICollection<Album> Albums { get; private set; }
+        public virtual ICollection<Timeline> Timelines { get; private set; }
+
+        //FK Attributes
+        public virtual ApplicationUser Creator { get; set; }
+        public virtual ApplicationUser Target { get; set; }
     }
 }

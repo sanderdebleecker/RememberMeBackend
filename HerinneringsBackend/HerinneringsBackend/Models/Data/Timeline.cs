@@ -13,5 +13,11 @@ namespace RememberMeBackend.Models.Data {
         public string TimelineMemory { get; set; }
         public string TimelineUser { get; set; }
         public long TimelineLastModified { get; set; }
+
+        //FK Collections
+        public virtual ICollection<Memory> Memories { get; private set; }
+        //FK Attributes
+        public virtual ApplicationUser User { get; set; }
+
     }
 }

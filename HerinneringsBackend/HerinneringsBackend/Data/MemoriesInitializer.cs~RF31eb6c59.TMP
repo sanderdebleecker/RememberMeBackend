@@ -1,0 +1,11 @@
+﻿using RememberMeBackend.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace RememberMeBackend.Data {
+    public class MemoriesInitializer : System.Data.Entity. DropCreateDatabaseIfModelChanges<ApplicationDbContext> {
+
+    }
+}

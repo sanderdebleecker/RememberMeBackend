@@ -77,3 +77,6 @@ C:\Users\vdb\Dropbox\3NMCT\Stage\Implementatie\HerinneringsBackend\HerinneringsB
 C:\Users\vdb\Dropbox\3NMCT\Stage\Implementatie\HerinneringsBackend\HerinneringsBackend\HerinneringsBackend\obj\Debug\RememberMeBackend.csprojResolveAssemblyReference.cache
 C:\Users\vdb\Dropbox\3NMCT\Stage\Implementatie\HerinneringsBackend\HerinneringsBackend\HerinneringsBackend\obj\Debug\RememberMeBackend.Migrations._26011528.resources
 C:\Users\vdb\Dropbox\3NMCT\Stage\Implementatie\HerinneringsBackend\HerinneringsBackend\HerinneringsBackend\obj\Debug\RememberMeBackend.csproj.GenerateResource.Cache
+C:\Users\vdb\Dropbox\3NMCT\Stage\Implementatie\HerinneringsBackend\HerinneringsBackend\HerinneringsBackend\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\vdb\Dropbox\3NMCT\Stage\Implementatie\HerinneringsBackend\HerinneringsBackend\HerinneringsBackend\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\vdb\Dropbox\3NMCT\Stage\Implementatie\HerinneringsBackend\HerinneringsBackend\HerinneringsBackend\bin\Microsoft.Practices.ServiceLocation.xml

@@ -1,15 +1,16 @@
-﻿using RememberMeBackend.Models;
+﻿using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 using RememberMeBackend.Models.Data;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Web;
 
 namespace RememberMeBackend.Data {
-    public class MemoriesInitializer : System.Data.Entity. DropCreateDatabaseIfModelChanges<MemoryDbContext> {
+    public class MemoriesInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<MemoryDbContext> {
         protected override void Seed(MemoryDbContext context) {
-            MD5Hasher md5 = new Data.MD5Hasher();
+            var roleStore = new RoleStore<IdentityRole>(context);
+            var roleManager = new RoleManager<IdentityRole>(roleStore);
+            var userStore = new UserStore<ApplicationUser>(context);
+            var userManager = new UserManager<ApplicationUser>(userStore);
+
             ApplicationUser user = new ApplicationUser {
                 Id = Guid.NewGuid().ToString("D"),
                 UserFirstName = "Janikka",
@@ -19,13 +20,10 @@ namespace RememberMeBackend.Data {
                 UserQuestion2 = "Q2?",
                 UserAnswer2 = "A2",
                 UserName = "JPeeters",
-                PasswordHash = md5.Hash("somethingsomething54!"),
+                PasswordHash = userManager.PasswordHasher.HashPassword("somethingsomething54!"),
             };
             context.Users.Add(user);
             context.SaveChanges();
-        }
-        public void TestSeed(MemoryDbContext context) {
-            Seed(context);
         }
     }
 }
